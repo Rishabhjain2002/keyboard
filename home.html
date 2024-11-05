@@ -12,11 +12,10 @@
   style="background: rgb(240,181,70); background: linear-gradient(90deg, rgba(240,181,70,1) 0%, rgba(255,238,205,1) 48%, rgba(240,181,70,1) 100%);">
   <div class="keyboard-container">
     <h1 style="text-align: center; font-family: Arial, sans-serif; color: #4A90E2; margin-top: 20px;">Notes</h1>
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px 0;">
-  <!-- Centered Text Area -->
-  <div style="text-align: center; width: 100%; max-width: 800px;"> 
-    <textarea id="textInput"
-      style="
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px 0;">
+      <!-- Centered Text Area -->
+      <div style="text-align: center; width: 100%; max-width: 800px;">
+        <textarea id="textInput" style="
         width: 100%; 
         height: 250px; 
         border-radius: 20px; 
@@ -31,876 +30,938 @@
         border: 2px solid #4A90E2; 
         background-color: #F7F9FB;
         color: #333;
-      "
-      placeholder="                  लिखना शुरू करें।
+      " placeholder="                  लिखना शुरू करें।
       𑁈𑀰𑁆𑀭𑀻 𑀆𑀤𑀺𑀦𑀸𑀣𑀸𑀬 𑀦𑀫:𑁈 𑁈 𑀦𑀫𑁄 𑀩𑀁𑀪𑀻𑀏 𑀮𑀺𑀯𑀺𑀏𑁈 𑀬𑀳 𑀮𑀺𑀧𑀺 𑀆𑀤𑀺𑀦𑀸𑀣 𑀪𑀕𑀯𑀸𑀦𑁆 𑀚𑀻 𑀦𑁂 𑀅𑀧𑀦𑀻 𑀧𑀼𑀢𑁆𑀭𑀻 𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻 𑀓𑁄 𑀲𑀺𑀔𑀸𑀈 𑀣𑀻, 𑀉𑀲𑀻 𑀓𑁂 𑀦𑀸𑀫 𑀲𑁂 𑀬𑀳 𑀮𑀺𑀧𑀺 𑀘𑀮𑀻 𑀳𑁃𑁇">
     </textarea>
+      </div>
+    </div>
+
+
+
+    <!-- Divider -->
+    <!-- <div style="width: 2px; height: 200px; background-color: #ccc;"></div> -->
+
   </div>
-</div>
+
+  <div class="keyboard" id="keyboard1">
+    <!-- Row 1 -->
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
+
+    <button data-char="𑀅">𑀅</button>
+    <button data-char="𑀆">𑀆</button>
+    <button data-char="𑀇">𑀇</button>
+    <button data-char="𑀈">𑀈</button>
+    <button data-char="𑀉">𑀉</button>
+    <button data-char="𑀊">𑀊</button>
+    <button data-char="𑀏">𑀏</button>
+    <button data-char="𑀐">𑀐</button>
+    <button data-char="𑀑">𑀑</button>
+    <button data-char="𑀒">𑀒</button>
+
+    <button data-char="ः">ः</button>
+    <button data-char="𑀸">𑀸</button>
+    <button data-char="𑀺">𑀺</button>
+    <button data-char="𑀻">𑀻</button>
+    <button data-char="𑀼">𑀼</button>
+    <button data-char="𑀽">𑀽</button>
+    <button data-char="𑁂">𑁂</button>
+    <button data-char="𑁃">𑁃</button>
+    <button data-char="𑁄">𑁄</button>
+    <button data-char="𑁅">𑁅</button>
+    <!-- Row 2 -->
+    <button data-char="𑀓">𑀓</button>
+    <button data-char="𑀔">𑀔</button>
+    <button data-char="𑀕">𑀕</button>
+    <button data-char="𑀖">𑀖</button>
+    <button data-char="𑀗">𑀗</button>
+    <button data-char="𑀘">𑀘</button>
+    <button data-char="𑀙">𑀙</button>
+    <button data-char="𑀚">𑀚</button>
+    <button data-char="𑀛">𑀛</button>
+    <button data-char="𑀜">𑀜</button>
+    <!-- Row 3 -->
+    <button data-char="𑀝">𑀝</button>
+    <button data-char="𑀞">𑀞</button>
+    <button data-char="𑀟">𑀟</button>
+    <button data-char="𑀠">𑀠</button>
+    <button data-char="𑀡">𑀡</button>
+    <button data-char="𑀢">𑀢</button>
+    <button data-char="𑀣">𑀣</button>
+    <button data-char="𑀤">𑀤</button>
+    <button data-char="𑀥">𑀥</button>
+    <button data-char="𑀦">𑀦</button>
+    <!-- Row 4 -->
+    <button data-char="𑀧">𑀧</button>
+    <button data-char="𑀨">𑀨</button>
+    <button data-char="𑀩">𑀩</button>
+    <button data-char="𑀪">𑀪</button>
+    <button data-char="𑀫">𑀫</button>
+    <button data-char="𑀬">𑀬</button>
+    <button data-char="𑀭">𑀭</button>
+    <button data-char="𑀮">𑀮</button>
+    <button data-char="𑀯">𑀯</button>
+    <button data-char="𑀰">𑀰</button>
+    <!-- Row 5 -->
+    <button data-char="𑀱">𑀱</button>
+    <button data-char="𑀲">𑀲</button>
+    <button data-char="𑀳">𑀳</button>
+    <button data-char="𑀓𑁆𑀱">𑀓𑁆𑀱</button>
+    <button data-char="𑀢𑁆𑀭">𑀢𑁆𑀭</button>
+    <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
+    <button data-char="𑀰𑁆𑀭">𑀰𑁆𑀭</button>
+    <button data-char="𑀁">𑀁</button>
+    <button data-char="़">़</button>
+    <button data-char="←" class="⌫">⌫</button>
+    <!-- Row 6 -->
+    <button data-char="" class="symbol" onclick="toggleKeyboard('keyboard2')">1/4</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char="," class="symbol">,</button>
+    <button data-char=""id="languageButton" class="symbol">🌐</button>
+    <button data-char="space" class="" style="width: 350px;">ब्राह्मी लिपि</button>
+    <button data-char="्" class="">्</button>
+    <button data-char="|">|</button>
+    <button data-char="↩">↩</button>
+  </div>
+  <div id="otherKeyboard" class="keyboard" style="display: none;">
+    <!-- Mockup of other keyboard -->
+    <button data-char="1">1</button>
+    <button data-char="2">2</button>
+    <button data-char="3">3</button>
+    <button data-char="4">4</button>
+    <button data-char="5">5</button>
+    <button data-char="6">6</button>
+    <button data-char="7">7</button>
+    <button data-char="8">8</button>
+    <button data-char="9">9</button>
+    <button data-char="0">0</button>
+
+
+    <button data-char="@">@</button>
+    <button data-char="#">#</button>
+    <button data-char="₹">₹</button>
+    <button data-char="_">_</button>
+    <button data-char="&">&</button>
+    <button data-char="-">-</button>
+    <button data-char="+">+</button>
+    <button data-char="(">(</button>
+    <button data-char=")">)</button>
+    <button data-char="/">/</button>
+
+
+    <button data-char="" onclick="showOtherKeyboards()">=\< </button>
+        <button data-char="*">*</button>
+        <button data-char="&quot;">"</button>
+        <button data-char="'">'</button>
+        <button data-char=":">:</button>
+        <button data-char=";">;</button>
+        <button data-char="!">!</button>
+        <button data-char="?">?</button>
+
+
+        <button data-char="" onclick="showMainKeyboard()">ABC</button>
+        <!-- Add more buttons or other elements as needed -->
+  </div>
+
+  <div id="otherKeyboardsigns" class="keyboard" style="display: none;">
+    <button data-char="~">~</button>
+    <button data-char="`">`</button>
+    <button data-char="|">|</button>
+    <button data-char="•">•</button>
+    <button data-char="√">√</button>
+    <button data-char="π">π</button>
+    <button data-char="÷">÷</button>
+    <button data-char="x">x</button>
+    <button data-char="x">x</button>
+    <button data-char="△">△</button>
+
+
+    <button data-char="£">£</button>
+    <button data-char="€">€</button>
+    <button data-char="$">$</button>
+    <button data-char="¢">¢</button>
+    <button data-char="^">^</button>
+    <button data-char="º">º</button>
+    <button data-char="=">=</button>
+    <button data-char="{">{</button>
+    <button data-char="}">}</button>
+    <button data-char="\">\</button>
+    <button data-char="%">%</button>
+    <button data-char="©">©</button>
+    <button data-char="®">®</button>
+    <button data-char="[">[</button>
+    <button data-char="]">]</button>
+    <button data-char="" onclick="showMainKeyboard()">ABC</button>
+  </div>
+
+
+  <div class="keyboard" id="keyboard2" style="display: none;">
+    <!-- Row 1 -->
+    <button data-char="𑁒">1</button>
+    <button data-char="𑁓">2</button>
+    <button data-char="𑁔">3</button>
+    <button data-char="𑁕">4</button>
+    <button data-char="𑁖">5</button>
+    <button data-char="𑁗">6</button>
+    <button data-char="𑁘">7</button>
+    <button data-char="𑁙">8</button>
+    <button data-char="𑁚">9</button>
+    <button data-char="०">0</button>
+
+    <button data-char="𑀅">अ</button>
+    <button data-char="𑀆">आ</button>
+    <button data-char="𑀇">इ</button>
+    <button data-char="𑀈">ई</button>
+    <button data-char="𑀉">उ</button>
+    <button data-char="𑀊">ऊ</button>
+    <button data-char="𑀏">ए</button>
+    <button data-char="𑀐">ऐ</button>
+    <button data-char="𑀑">ओ</button>
+    <button data-char="𑀒">औ</button>
+
+    <button data-char="ः">अः</button>
+    <button data-char="𑀸">ा</button>
+    <button data-char="𑀺">ि</button>
+    <button data-char="𑀻">ी</button>
+    <button data-char="𑀼">ु</button>
+    <button data-char="𑀽">ू</button>
+    <button data-char="𑁂">े</button>
+    <button data-char="𑁃">ै</button>
+    <button data-char="𑁄">ो</button>
+    <button data-char="𑁅">ौ</button>
+
+    <button data-char="𑀓">क</button>
+    <button data-char="𑀔">ख</button>
+    <button data-char="𑀕">ग</button>
+    <button data-char="𑀖">घ</button>
+    <button data-char="𑀗">ङ</button>
+    <button data-char="𑀘">च</button>
+    <button data-char="𑀙">छ</button>
+    <button data-char="𑀚">ज</button>
+    <button data-char="𑀛">झ</button>
+    <button data-char="𑀜">ञ</button>
+    <!-- Row 3 -->
+    <button data-char="𑀝">ट</button>
+    <button data-char="𑀞">ठ</button>
+    <button data-char="𑀟">ढ</button>
+    <button data-char="𑀠">ड</button>
+    <button data-char="𑀡">ण</button>
+    <button data-char="𑀢">त</button>
+    <button data-char="𑀣">थ</button>
+    <button data-char="𑀤">द</button>
+    <button data-char="𑀥">ध</button>
+    <button data-char="𑀦">न</button>
+    <!-- Row 4 -->
+    <button data-char="𑀧">प</button>
+    <button data-char="𑀨">फ</button>
+    <button data-char="𑀩">ब</button>
+    <button data-char="𑀪">भ</button>
+    <button data-char="𑀫">म</button>
+    <button data-char="𑀬">य</button>
+    <button data-char="𑀭">र</button>
+    <button data-char="𑀮">ल</button>
+    <button data-char="𑀯">व</button>
+    <button data-char="𑀰">श</button>
+    <!-- Row 5 -->
+    <button data-char="𑀱">ष</button>
+    <button data-char="𑀲">स</button>
+    <button data-char="𑀳">ह</button>
+    <button data-char="𑀓𑁆𑀱">क्ष</button>
+    <button data-char="𑀢𑁆𑀭">त्र</button>
+    <button data-char="𑀚𑁆𑀜">ज्ञ</button>
+    <button data-char="𑀰𑁆𑀭">श्र</button>
+    <button data-char="𑀁">𑀁</button>
+    <button data-char="़">़</button>
+    <button data-char="←" class="⌫">⌫</button>
+
+    <!-- Row 6 -->
+    <button data-char="" class="symbol" onclick="toggleKeyboard('keyboard3')">2/4</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char="," class="symbol">,</button>
+    <button data-char="" id="languageButton" class="symbol" onclick="toggleKeyboard('keyboard5')">🌐</button>
+    <button data-char="space" class="" style="width: 220px !important; display: block;">ब्राह्मी लिपि</button>
+    <button data-char="्" class="">्</button>
+    <button data-char="|">।</button>
+    <button data-char="↩">↩</button>
+  </div>
+
+
+  <div class="keyboard" id="keyboard3" style="display: none;">
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
+
+    <button data-char="𑀚𑁆𑀜">ज्ञ</button>
+    <button data-char="𑀢𑁆𑀭">त्र</button>
+    <button data-char="𑀲𑁆𑀝">स्ट</button>
+    <button data-char="𑀲𑁆𑀢">स्त</button>
+    <button data-char="𑀗">ङ</button>
+    <button data-char="𑀜">ञ</button>
+    <button data-char="𑀰𑁆𑀭">श्र</button>
+    <button data-char="𑀓𑁆𑀭">क्र</button>
+    <button data-char="𑀕𑁆𑀭">ग्र</button>
+    <button data-char="𑀤𑁆𑀭">द्र</button>
+
+    <button data-char="𑀥𑁆𑀭">ध्र</button>
+    <button data-char="𑀧𑁆𑀭">प्र</button>
+    <button data-char="𑀩𑁆𑀭">ब्र</button>
+    <button data-char="𑀪𑁆𑀭">भ्र</button>
+    <button data-char="𑀫𑁆𑀭">म्र</button>
+    <button data-char="𑀨𑁆𑀭">फ्र</button>
+    <button data-char="𑀯𑁆𑀭">व्र</button>
+    <button data-char="𑀓𑁆𑀢">क्त</button>
+    <button data-char="𑀢𑁆𑀢">त्त</button>
+    <button data-char="𑀳𑁆𑀫">ह्म</button>
+
+    <button data-char="𑀭𑁆𑀭">र्र</button>
+    <button data-char="𑀲𑁆𑀭">स्र</button>
+    <button data-char="𑀳𑁆𑀭">ह्र</button>
+    <button data-char="𑀭𑁆𑀓">र्क</button>
+    <button data-char="𑀭𑁆𑀕">र्ग</button>
+    <button data-char="𑀭𑁆𑀘">र्च</button>
+    <button data-char="𑀭𑁆𑀚">र्ज</button>
+    <button data-char="𑀭𑁆𑀢">र्त</button>
+    <button data-char="𑀭𑁆𑀣">र्थ</button>
+    <button data-char="𑀭𑁆𑀤">र्द</button>
+
+    <button data-char="𑀭𑁆𑀦">र्न</button>
+    <button data-char="𑀭𑁆𑀫">र्म</button>
+    <button data-char="𑀭𑁆𑀰">र्श</button>
+    <button data-char="𑀭𑁆𑀱">र्ष</button>
+    <button data-char="𑀭𑁆𑀲">र्स</button>
+    <button data-char="𑀭𑁆𑀧">र्प</button>
+    <button data-char="𑀢𑁆𑀣">त्थ</button>
+    <button data-char="𑀢𑁆𑀦">त्न</button>
+    <button data-char="𑀢𑁆𑀫">त्म</button>
+    <button data-char="𑀢𑁆𑀬">त्य</button>
+
+
+    <button data-char="𑀢𑁆𑀯">त्व</button>
+    <button data-char="𑀤𑁆𑀤">द्द</button>
+    <button data-char="𑀤𑁆𑀥">द्ध</button>
+    <button data-char="𑀤𑁆𑀩">द्ब</button>
+    <button data-char="𑀤𑁆𑀪">द्भ</button>
+    <button data-char="𑀤𑁆𑀫">द्म</button>
+    <button data-char="𑀤𑁆𑀯">द्व</button>
+    <button data-char="𑀤𑀾">दृ</button>
+    <button data-char="⌫">⌫</button>
+    <button data-char="⌫"></button>
+
+    <button data-char="" class="symbol" onclick="toggleKeyboard('keyboard4')">3/4</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char=",">,</button>
+    <button data-char="" id="languageButton" class="symbol" onclick="toggleKeyboard('keyboard5')">🌐</button>
+    <button data-char="हिन्दी">हिन्दी</button>
+    <button data-char="्">्</button>
+    <button data-char="।">।</button>
+    <button data-char="↩">↩</button>
+  </div>
 
 
 
-      <!-- Divider -->
-      <!-- <div style="width: 2px; height: 200px; background-color: #ccc;"></div> -->
+  <div class="keyboard" id="keyboard4" style="display: none;">
 
-    </div>
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
 
-    <div class="keyboard" id="keyboard1">
-      <!-- Row 1 -->
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
+    <button data-char="𑀭𑁆𑀝">र्ट</button>
+    <button data-char="𑀭𑁆𑀔">र्ख</button>
+    <button data-char="𑀭𑁆𑀬">र्य</button>
+    <button data-char="𑀔𑁆𑀬">ख्य</button>
+    <button data-char="𑀚𑁆𑀬">ज्य</button>
+    <button data-char="𑀢𑁆𑀬">त्य</button>
+    <button data-char="𑀥𑁆𑀬">ध्य</button>
+    <button data-char="𑀧𑁆𑀬">प्य</button>
+    <button data-char="𑀪𑁆𑀬">भ्य</button>
+    <button data-char="𑀮𑁆𑀬">ल्य</button>
 
-      <button data-char="𑀅">𑀅</button>
-      <button data-char="𑀆">𑀆</button>
-      <button data-char="𑀇">𑀇</button>
-      <button data-char="𑀈">𑀈</button>
-      <button data-char="𑀉">𑀉</button>
-      <button data-char="𑀊">𑀊</button>
-      <button data-char="𑀏">𑀏</button>
-      <button data-char="𑀐">𑀐</button>
-      <button data-char="𑀑">𑀑</button>
-      <button data-char="𑀒">𑀒</button>
+    <button data-char="𑀯𑁆𑀬">व्य</button>
+    <button data-char="𑀱𑁆𑀬">ष्य</button>
+    <button data-char="𑀲𑁆𑀬">स्य</button>
+    <button data-char="𑀦𑁆𑀝">न्ट</button>
+    <button data-char="𑀦𑁆𑀢">न्त</button>
+    <button data-char="𑀦𑁆𑀣">न्थ</button>
+    <button data-char="𑀦𑁆𑀤">न्द</button>
+    <button data-char="𑀦𑁆𑀦">न्न</button>
+    <button data-char="𑀦𑁆𑀬">न्य</र्नbutton>
+      <button data-char="𑀦𑁆𑀳">न्ह</button>
 
-      <button data-char="ः">ः</button>
-      <button data-char="𑀸">𑀸</button>
-      <button data-char="𑀺">𑀺</button>
-      <button data-char="𑀻">𑀻</button>
-      <button data-char="𑀼">𑀼</button>
-      <button data-char="𑀽">𑀽</button>
-      <button data-char="𑁂">𑁂</button>
-      <button data-char="𑁃">𑁃</button>
-      <button data-char="𑁄">𑁄</button>
-      <button data-char="𑁅">𑁅</button>
-      <!-- Row 2 -->
-      <button data-char="𑀓">𑀓</button>
-      <button data-char="𑀔">𑀔</button>
-      <button data-char="𑀕">𑀕</button>
-      <button data-char="𑀖">𑀖</button>
-      <button data-char="𑀗">𑀗</button>
-      <button data-char="𑀘">𑀘</button>
-      <button data-char="𑀙">𑀙</button>
-      <button data-char="𑀚">𑀚</button>
-      <button data-char="𑀛">𑀛</button>
-      <button data-char="𑀜">𑀜</button>
-      <!-- Row 3 -->
-      <button data-char="𑀝">𑀝</button>
-      <button data-char="𑀞">𑀞</button>
-      <button data-char="𑀟">𑀟</button>
-      <button data-char="𑀠">𑀠</button>
-      <button data-char="𑀡">𑀡</button>
-      <button data-char="𑀢">𑀢</button>
-      <button data-char="𑀣">𑀣</button>
-      <button data-char="𑀤">𑀤</button>
-      <button data-char="𑀥">𑀥</button>
-      <button data-char="𑀦">𑀦</button>
-      <!-- Row 4 -->
-      <button data-char="𑀧">𑀧</button>
-      <button data-char="𑀨">𑀨</button>
-      <button data-char="𑀩">𑀩</button>
-      <button data-char="𑀪">𑀪</button>
-      <button data-char="𑀫">𑀫</button>
-      <button data-char="𑀬">𑀬</button>
-      <button data-char="𑀭">𑀭</button>
-      <button data-char="𑀮">𑀮</button>
-      <button data-char="𑀯">𑀯</button>
-      <button data-char="𑀰">𑀰</button>
-      <!-- Row 5 -->
-      <button data-char="𑀱">𑀱</button>
-      <button data-char="𑀲">𑀲</button>
-      <button data-char="𑀳">𑀳</button>
-      <button data-char="𑀓𑁆𑀱">𑀓𑁆𑀱</button>
-      <button data-char="𑀢𑁆𑀭">𑀢𑁆𑀭</button>
-      <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
-      <button data-char="𑀰𑁆𑀭">𑀰𑁆𑀭</button>
-      <button data-char="𑀁">𑀁</button>
-      <button data-char="़">़</button>
-      <button data-char="←" class="⌫">⌫</button>
-      <!-- Row 6 -->
-      <button data-char="1/2" class="symbol" onclick="toggleKeyboard('keyboard2')">1/4</button>
-      <button data-char="?123" class="symbol">?123</button>
-      <button data-char="," class="symbol">,</button>
-      <button id="languageButton" class="symbol" >🌐</button>
-      <button data-char="space" class="" style="width: 200px;">ब्राह्मी लिपि</button>
-      <button data-char="्" class="">्</button>
-      <button data-char="|">|</button>
-      <button data-char="↩">↩</button>
-    </div>
-   
+      <button data-char="𑀫𑁆𑀘">म्च</button>
+      <button data-char="𑀫𑁆𑀝">म्ट</button>
+      <button data-char="𑀫𑁆𑀢">म्त</button>
+      <button data-char="𑀫𑁆𑀧">म्प</button>
+      <button data-char="𑀫𑁆𑀩">म्ब</button>
+      <button data-char="𑀫𑁆𑀫">म्म</button>
+      <button data-char="𑀫𑁆𑀬">म्य</button>
+      <button data-char="𑀫𑁆𑀳">म्ह</button>
+      <button data-char="𑀡𑁆𑀟">ण्ड</button>
+      <button data-char="𑀧𑁆𑀢">प्त</button>
 
-    <div class="keyboard" id="keyboard2" style="display: none;">
-      <!-- Row 1 -->
-      <button data-char="𑁒">1</button>
-      <button data-char="𑁓">2</button>
-      <button data-char="𑁔">3</button>
-      <button data-char="𑁕">4</button>
-      <button data-char="𑁖">5</button>
-      <button data-char="𑁗">6</button>
-      <button data-char="𑁘">7</button>
-      <button data-char="𑁙">8</button>
-      <button data-char="𑁚">9</button>
-      <button data-char="०">0</button>
+      <button data-char="𑀧𑁆𑀧">प्प</button>
+      <button data-char="𑀧𑁆𑀮">प्ल</button>
+      <button data-char="𑀩𑁆𑀚">ब्ज</button>
+      <button data-char="𑀩𑁆𑀤">ब्द</button>
+      <button data-char="𑀩𑁆𑀩">ब्ब</button>
+      <button data-char="𑀩𑁆𑀮">ब्ल</button>
+      <button data-char="𑀖𑁆𑀦">घ्न</button>
+      <button data-char="𑀨𑁆𑀢">फ्त</button>
+      <button data-char="𑀰𑁆𑀘">श्च</button>
+      <button data-char="𑀰𑁆𑀯">श्व</button>
 
-      <button data-char="𑀅">अ</button>
-      <button data-char="𑀆">आ</button>
-      <button data-char="𑀇">इ</button>
-      <button data-char="𑀈">ई</button>
-      <button data-char="𑀉">उ</button>
-      <button data-char="𑀊">ऊ</button>
-      <button data-char="𑀏">ए</button>
-      <button data-char="𑀐">ऐ</button>
-      <button data-char="𑀑">ओ</button>
-      <button data-char="𑀒">औ</button>
-
-      <button data-char="ः">अः</button>
-      <button data-char="𑀸">ा</button>
-      <button data-char="𑀺">ि</button>
-      <button data-char="𑀻">ी</button>
-      <button data-char="𑀼">ु</button>
-      <button data-char="𑀽">ू</button>
-      <button data-char="𑁂">े</button>
-      <button data-char="𑁃">ै</button>
-      <button data-char="𑁄">ो</button>
-      <button data-char="𑁅">ौ</button>
-
-      <button data-char="𑀓">क</button>
-      <button data-char="𑀔">ख</button>
-      <button data-char="𑀕">ग</button>
-      <button data-char="𑀖">घ</button>
-      <button data-char="𑀗">ङ</button>
-      <button data-char="𑀘">च</button>
-      <button data-char="𑀙">छ</button>
-      <button data-char="𑀚">ज</button>
-      <button data-char="𑀛">झ</button>
-      <button data-char="𑀜">ञ</button>
-      <!-- Row 3 -->
-      <button data-char="𑀝">ट</button>
-      <button data-char="𑀞">ठ</button>
-      <button data-char="𑀟">ढ</button>
-      <button data-char="𑀠">ड</button>
-      <button data-char="𑀡">ण</button>
-      <button data-char="𑀢">त</button>
-      <button data-char="𑀣">थ</button>
-      <button data-char="𑀤">द</button>
-      <button data-char="𑀥">ध</button>
-      <button data-char="𑀦">न</button>
-      <!-- Row 4 -->
-      <button data-char="𑀧">प</button>
-      <button data-char="𑀨">फ</button>
-      <button data-char="𑀩">ब</button>
-      <button data-char="𑀪">भ</button>
-      <button data-char="𑀫">म</button>
-      <button data-char="𑀬">य</button>
-      <button data-char="𑀭">र</button>
-      <button data-char="𑀮">ल</button>
-      <button data-char="𑀯">व</button>
-      <button data-char="𑀰">श</button>
-      <!-- Row 5 -->
-      <button data-char="𑀱">ष</button>
-      <button data-char="𑀲">स</button>
-      <button data-char="𑀳">ह</button>
-      <button data-char="𑀓𑁆𑀱">क्ष</button>
-      <button data-char="𑀢𑁆𑀭">त्र</button>
-      <button data-char="𑀚𑁆𑀜">ज्ञ</button>
-      <button data-char="𑀰𑁆𑀭">श्र</button>
-      <button data-char="𑀁">𑀁</button>
-      <button data-char="़">़</button>
-      <button data-char="←" class="⌫">⌫</button>
-
-      <!-- Row 6 -->
-      <button data-char="2/4" class="symbol" onclick="toggleKeyboard('keyboard3')">2/4</button>
-      <button data-char="?123" class="symbol">?123</button>
-      <button data-char="," class="symbol">,</button>
-      <button style="color: black;" data-char="🌐" class="symbol">🌐</button>
-      <button data-char="space" class="" style="width: 220px;">ब्राह्मी लिपि</button>
-      <button data-char="्" class="">्</button>
-      <button data-char="|">।</button>
-      <button data-char="↩">↩</button>
-    </div>
-
-
-    <div class="keyboard" id="keyboard3" style="display: none;">
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
-
-      <button data-char="𑀚𑁆𑀜">ज्ञ</button>
-      <button data-char="𑀢𑁆𑀭">त्र</button>
-      <button data-char="𑀲𑁆𑀝">स्ट</button>
-      <button data-char="𑀲𑁆𑀢">स्त</button>
-      <button data-char="𑀗">ङ</button>
-      <button data-char="𑀜">ञ</button>
-      <button data-char="𑀰𑁆𑀭">श्र</button>
-      <button data-char="𑀓𑁆𑀭">क्र</button>
-      <button data-char="𑀕𑁆𑀭">ग्र</button>
-      <button data-char="𑀤𑁆𑀭">द्र</button>
-
-      <button data-char="𑀥𑁆𑀭">ध्र</button>
-      <button data-char="𑀧𑁆𑀭">प्र</button>
-      <button data-char="𑀩𑁆𑀭">ब्र</button>
-      <button data-char="𑀪𑁆𑀭">भ्र</button>
-      <button data-char="𑀫𑁆𑀭">म्र</button>
-      <button data-char="𑀨𑁆𑀭">फ्र</button>
-      <button data-char="𑀯𑁆𑀭">व्र</button>
-      <button data-char="𑀓𑁆𑀢">क्त</button>
-      <button data-char="𑀢𑁆𑀢">त्त</button>
-      <button data-char="𑀳𑁆𑀫">ह्म</button>
-
-      <button data-char="𑀭𑁆𑀭">र्र</button>
-      <button data-char="𑀲𑁆𑀭">स्र</button>
-      <button data-char="𑀳𑁆𑀭">ह्र</button>
-      <button data-char="𑀭𑁆𑀓">र्क</button>
-      <button data-char="𑀭𑁆𑀕">र्ग</button>
-      <button data-char="𑀭𑁆𑀘">र्च</button>
-      <button data-char="𑀭𑁆𑀚">र्ज</button>
-      <button data-char="𑀭𑁆𑀢">र्त</button>
-      <button data-char="𑀭𑁆𑀣">र्थ</button>
-      <button data-char="𑀭𑁆𑀤">र्द</button>
-
-      <button data-char="𑀭𑁆𑀦">र्न</button>
-      <button data-char="𑀭𑁆𑀫">र्म</button>
-      <button data-char="𑀭𑁆𑀰">र्श</button>
-      <button data-char="𑀭𑁆𑀱">र्ष</button>
-      <button data-char="𑀭𑁆𑀲">र्स</button>
-      <button data-char="𑀭𑁆𑀧">र्प</button>
-      <button data-char="𑀢𑁆𑀣">त्थ</button>
-      <button data-char="𑀢𑁆𑀦">त्न</button>
-      <button data-char="𑀢𑁆𑀫">त्म</button>
-      <button data-char="𑀢𑁆𑀬">त्य</button>
-
-    
-      <button data-char="𑀢𑁆𑀯">त्व</button>
-      <button data-char="𑀤𑁆𑀤">द्द</button>
-      <button data-char="𑀤𑁆𑀥">द्ध</button>
-      <button data-char="𑀤𑁆𑀩">द्ब</button>
-      <button data-char="𑀤𑁆𑀪">द्भ</button>
-      <button data-char="𑀤𑁆𑀫">द्म</button>
-      <button data-char="𑀤𑁆𑀯">द्व</button>
-      <button data-char="𑀤𑀾">दृ</button>
+      <!-- <button data-char="3/4">3/4</button> -->
+      <button data-char="𑀮𑁆𑀝">ल्ट</button>
+      <button data-char="𑀮𑁆𑀧">ल्प</button>
+      <button data-char="𑀮𑁆𑀩">ल्ब</button>
+      <button data-char="𑀮𑁆𑀳">ल्ह</button>
+      <button data-char="𑀱𑁆𑀝">ष्ट</button>
+      <button data-char="𑀱𑁆𑀡">ष्ण</button>
+      <button data-char="𑀱𑁆𑀧">ष्प</button>
+      <button data-char="𑀱𑁆𑀓">ष्क</button>
       <button data-char="⌫">⌫</button>
       <button data-char="⌫"></button>
-
-      <button data-char="3/4" class="symbol" onclick="toggleKeyboard('keyboard4')">3/4</button>
-      <button data-char="?123">?123</button>
+      <button data-char="" class="symbol" onclick="toggleKeyboard('keyboard1')">4/4</button>
+      <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
       <button data-char=",">,</button>
-      <button data-char="🌐">🌐</button>
+      <button data-char="" id="languageButton" class="symbol" onclick="toggleKeyboard('keyboard5')">🌐</button>
       <button data-char="हिन्दी">हिन्दी</button>
       <button data-char="्">्</button>
       <button data-char="।">।</button>
       <button data-char="↩">↩</button>
-    </div>
+  </div>
+
+
+  <div class="keyboard" id="keyboard5" style="display: none;">
+
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
+
+    <button data-char="ऍ">ऍ</button>
+    <button data-char="ऑ">ऑ</button>
+    <button data-char="ऎ">ऎ</button>
+    <button data-char="ऒ">ऒ</button>
+    <button data-char="ॵ">ॵ</button>
+    <button data-char="ॳ">ॳ</button>
+    <button data-char="ॴ">ॴ</button>
+    <button data-char="ॶ">ॶ</button>
+    <button data-char="ॷ">ॷ</button>
+    <button data-char="ॠ">ॠ</button>
+
+    <button data-char="ॅ">ॅ</button>
+    <button data-char="ॉ">ॉ</button>
+    <button data-char="ॆ">ॆ</button>
+    <button data-char="ॊ">ॊ</button>
+    <button data-char="ॏ">ॏ</button>
+    <button data-char="ऺ">ऺ</button>
+    <button data-char="ऻ">ऻ</button>
+    <button data-char="ॖ">ॖ</button>
+    <button data-char="ॗ">ॗ</button>
+    <button data-char="𑀿">ॄ</button>
+
+    <button data-char="𑀍">ऌ</button>
+    <button data-char="ॡ">ॡ</button>
+    <button data-char="ऄ">ऄ</button>
+    <button data-char="ॲ">ॲ</button>
+    <button data-char="ॹ">ॹ</button>
+    <button data-char="ॺ">ॺ</button>
+    <button data-char="ॻ">ॻ</button>
+    <button data-char="ॼ">ॼ</button>
+    <button data-char="ॾ">ॾ</button>
+    <button data-char="ॿ">ॿ</button>
+
+    <button data-char="𑁀">ॢ</button>
+    <button data-char="𑁁">ॣ</button>
+    <button data-char="ऀ">ऀ</button>
+    <button data-char="॒">॒</button>
+    <button data-char=" ऺ ">॑</button>
+    <button data-char="ॽ">ॽ</button>
+    <button data-char="ऩ">ऩ</button>
+    <button data-char="ऱ">ऱ</button>
+    <button data-char="ऴ">ऴ</button>
+    <button data-char="𑀴">ळ</button>
+    <!-- <button  data-char="4/4" class="symbol" onclick="toggleKeyboard('keyboard1')">4/4</button> -->
+
+    <button data-char="॰">॰</button>
+    <button data-char="  ॓ ">॓</button>
+    <button data-char="  ॔ ">॔</button>
+    <button data-char="ॎ">ॎ</button>
+    <button data-char="ः">ः</button>
+    <button data-char="ऽ">ऽ</button>
+    <button data-char="॥">॥</button>
+    <button data-char="ॐ">ॐ</button>
+    <button data-char="⌫">⌫</button>
+    <button data-char="⌫"></button>
+
+    <button data-char="" onclick=" toggleKeyboard('keyboard6')">1/4</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char=",">,</button>
+    <button data-char="" onclick="toggleKeyboard('keyboard9')">🌐</button>
+
+    <button data-char="हिन्दी">हिन्दी</button>
+    <button data-char="्">्</button>
+    <button data-char="।">।</button>
+    <button data-char="↩">↩</button>
+
+  </div>
 
 
 
-    <div class="keyboard" id="keyboard4" style="display: none;">
+  <div class="keyboard" id="keyboard6" style="display: none;">
+    <!-- Row 1 -->
+    <button data-char="𑁒">1</button>
+    <button data-char="𑁓">2</button>
+    <button data-char="𑁔">3</button>
+    <button data-char="𑁕">4</button>
+    <button data-char="𑁖">5</button>
+    <button data-char="𑁗">6</button>
+    <button data-char="𑁘">7</button>
+    <button data-char="𑁙">8</button>
+    <button data-char="𑁚">9</button>
+    <button data-char="०">0</button>
 
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
+    <button data-char="𑀅">a</button>
+    <button data-char="𑀆">aa</button>
+    <button data-char="𑀇">i</button>
+    <button data-char="𑀈">ee</button>
+    <button data-char="𑀉">u</button>
+    <button data-char="𑀊">oo</button>
+    <button data-char="𑀏">e</button>
+    <button data-char="𑀐">ai</button>
+    <button data-char="𑀑">o</button>
+    <button data-char="𑀒">au</button>
 
-      <button data-char="𑀭𑁆𑀝">र्ट</button>
-      <button data-char="𑀭𑁆𑀔">र्ख</button>
-      <button data-char="𑀭𑁆𑀬">र्य</button>
-      <button data-char="𑀔𑁆𑀬">ख्य</button>
-      <button data-char="𑀚𑁆𑀬">ज्य</button>
-      <button data-char="𑀢𑁆𑀬">त्य</button>
-      <button data-char="𑀥𑁆𑀬">ध्य</button>
-      <button data-char="𑀧𑁆𑀬">प्य</button>
-      <button data-char="𑀪𑁆𑀬">भ्य</button>
-      <button data-char="𑀮𑁆𑀬">ल्य</button>
+    <button data-char="ः">ah</button>
+    <button data-char="𑀸">a</button>
+    <button data-char="𑀺">i</button>
+    <button data-char="𑀻">ee</button>
+    <button data-char="𑀼">u</button>
+    <button data-char="𑀽">oo</button>
+    <button data-char="𑁂">e</button>
+    <button data-char="𑁃">ai</button>
+    <button data-char="𑁄">o</button>
+    <button data-char="𑁅">au</button>
 
-      <button data-char="𑀯𑁆𑀬">व्य</button>
-      <button data-char="𑀱𑁆𑀬">ष्य</button>
-      <button data-char="𑀲𑁆𑀬">स्य</button>
-      <button data-char="𑀦𑁆𑀝">न्ट</button>
-      <button data-char="𑀦𑁆𑀢">न्त</button>
-      <button data-char="𑀦𑁆𑀣">न्थ</button>
-      <button data-char="𑀦𑁆𑀤">न्द</button>
-      <button data-char="𑀦𑁆𑀦">न्न</button>
-      <button data-char="𑀦𑁆𑀬">न्य</र्नbutton>
-        <button data-char="𑀦𑁆𑀳">न्ह</button>
+    <button data-char="𑀓">ka</button>
+    <button data-char="𑀔">kha</button>
+    <button data-char="𑀕">ga</button>
+    <button data-char="𑀖">gha</button>
+    <button data-char="𑀗">na</button>
+    <button data-char="𑀘">cha</button>
+    <button data-char="𑀙">chha</button>
+    <button data-char="𑀚">ja</button>
+    <button data-char="𑀛">jha</button>
+    <button data-char="𑀜">na</button>
+    <!-- Row 3 -->
+    <button data-char="𑀝">ta</button>
+    <button data-char="𑀞">tha</button>
+    <button data-char="𑀟">da</button>
+    <button data-char="𑀠">dha</button>
+    <button data-char="𑀡">na</button>
+    <button data-char="𑀢">ta</button>
+    <button data-char="𑀣">tha</button>
+    <button data-char="𑀤">da</button>
+    <button data-char="𑀥">dha</button>
+    <button data-char="𑀦">na</button>
+    <!-- Row 4 -->
+    <button data-char="𑀧">pa</button>
+    <button data-char="𑀨">pha/fa</button>
+    <button data-char="𑀩">ba</button>
+    <button data-char="𑀪">bha</button>
+    <button data-char="𑀫">ma</button>
+    <button data-char="𑀬">ya</button>
+    <button data-char="𑀭">ra</button>
+    <button data-char="𑀮">la</button>
+    <button data-char="𑀯">va</button>
+    <button data-char="𑀰">sha</button>
+    <!-- Row 5 -->
+    <button data-char="𑀱">sha</button>
+    <button data-char="𑀲">sa</button>
+    <button data-char="𑀳">ha</button>
+    <button data-char="𑀓𑁆𑀱">ksha</button>
+    <button data-char="𑀢𑁆𑀭">tra</button>
+    <button data-char="𑀚𑁆𑀜">gya</button>
+    <button data-char="𑀰𑁆𑀭">shra</button>
+    <button data-char="𑀁">n</button>
+    <button data-char="़">़</button>
+    <button data-char="←" class="⌫">⌫</button>
 
-        <button data-char="𑀫𑁆𑀘">म्च</button>
-        <button data-char="𑀫𑁆𑀝">म्ट</button>
-        <button data-char="𑀫𑁆𑀢">म्त</button>
-        <button data-char="𑀫𑁆𑀧">म्प</button>
-        <button data-char="𑀫𑁆𑀩">म्ब</button>
-        <button data-char="𑀫𑁆𑀫">म्म</button>
-        <button data-char="𑀫𑁆𑀬">म्य</button>
-        <button data-char="𑀫𑁆𑀳">म्ह</button>
-        <button data-char="𑀡𑁆𑀟">ण्ड</button>
-        <button data-char="𑀧𑁆𑀢">प्त</button>
+    <!-- Row 6 -->
+    <!-- <button data-char="4/4" onclick=" toggleKeyboard('keyboard6')">1/4</button> -->
 
-        <button data-char="𑀧𑁆𑀧">प्प</button>
-        <button data-char="𑀧𑁆𑀮">प्ल</button>
-        <button data-char="𑀩𑁆𑀚">ब्ज</button>
-        <button data-char="𑀩𑁆𑀤">ब्द</button>
-        <button data-char="𑀩𑁆𑀩">ब्ब</button>
-        <button data-char="𑀩𑁆𑀮">ब्ल</button>
-        <button data-char="𑀖𑁆𑀦">घ्न</button>
-        <button data-char="𑀨𑁆𑀢">फ्त</button>
-        <button data-char="𑀰𑁆𑀘">श्च</button>
-        <button data-char="𑀰𑁆𑀯">श्व</button>
+    <button data-char="" class="symbol" onclick="toggleKeyboard('keyboard7')">2/4</button>
 
-        <!-- <button data-char="3/4">3/4</button> -->
-        <button data-char="𑀮𑁆𑀝">ल्ट</button>
-        <button data-char="𑀮𑁆𑀧">ल्प</button>
-        <button data-char="𑀮𑁆𑀩">ल्ब</button>
-        <button data-char="𑀮𑁆𑀳">ल्ह</button>
-        <button data-char="𑀱𑁆𑀝">ष्ट</button>
-        <button data-char="𑀱𑁆𑀡">ष्ण</button>
-        <button data-char="𑀱𑁆𑀧">ष्प</button>
-        <button data-char="𑀱𑁆𑀓">ष्क</button>
-        <button data-char="⌫">⌫</button>
-        <button data-char="⌫"></button>
-        <button data-char="4/4" class="symbol" onclick="toggleKeyboard('keyboard1')">4/4</button>
-        <button data-char="?123">?123</button>
-        <button data-char=",">,</button>
-        <button data-char="🌐">🌐</button>
-        <button data-char="हिन्दी">हिन्दी</button>
-        <button data-char="्">्</button>
-        <button data-char="।">।</button>
-        <button data-char="↩">↩</button>
-    </div>
-
-
-
-
-
-
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char="," class="symbol">,</button>
+    <button data-char="" onclick="toggleKeyboard('keyboard9')">🌐</button>
+    <button data-char="space" class="" style="width: 200px;">ब्राह्मी लिपि</button>
+    <button data-char="्" class="">्</button>
+    <button data-char="|">।</button>
+    <button data-char="↩">↩</button>
+  </div>
 
 
-    <div class="keyboard" id="keyboard5" style="display: none;">
+  <div class="keyboard" id="keyboard7" style="display: none;">
 
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
 
-      <button data-char="ऍ">ऍ</button>
-      <button data-char="ऑ">ऑ</button>
-      <button data-char="ऎ">ऎ</button>
-      <button data-char="ऒ">ऒ</button>
-      <button data-char="ॵ">ॵ</button>
-      <button data-char="ॳ">ॳ</button>
-      <button data-char="ॴ">ॴ</button>
-      <button data-char="ॶ">ॶ</button>
-      <button data-char="ॷ">ॷ</button>
-      <button data-char="ॠ">ॠ</button>
+    <button data-char="𑀚𑁆𑀜">gya</button>
+    <button data-char="𑀢𑁆𑀭">tra</button>
+    <button data-char="𑀲𑁆𑀝">sta</button>
+    <button data-char="𑀲𑁆𑀢">sta</button>
+    <button data-char="𑀗">na</button>
+    <button data-char="𑀜">na</button>
+    <button data-char="𑀰𑁆𑀭">shra</button>
+    <button data-char="𑀓𑁆𑀭">kra</button>
+    <button data-char="𑀕𑁆𑀭">gra</button>
+    <button data-char="𑀤𑁆𑀭">dra</button>
 
-      <button data-char="ॅ">ॅ</button>
-      <button data-char="ॉ">ॉ</button>
-      <button data-char="ॆ">ॆ</button>
-      <button data-char="ॊ">ॊ</button>
-      <button data-char="ॏ">ॏ</button>
-      <button data-char="ऺ">ऺ</button>
-      <button data-char="ऻ">ऻ</button>
-      <button data-char="ॖ">ॖ</button>
-      <button data-char="ॗ">ॗ</button>
-      <button data-char="𑀿">ॄ</button>
+    <button data-char="𑀥𑁆𑀭">dhra</button>
+    <button data-char="𑀧𑁆𑀭">pra</button>
+    <button data-char="𑀩𑁆𑀭">bra</button>
+    <button data-char="𑀪𑁆𑀭">bhra</button>
+    <button data-char="𑀫𑁆𑀭">mra</button>
+    <button data-char="𑀨𑁆𑀭">fra</button>
+    <button data-char="𑀯𑁆𑀭">vra</button>
+    <button data-char="𑀓𑁆𑀢">kta</button>
+    <button data-char="𑀢𑁆𑀢">tta</button>
+    <button data-char="𑀳𑁆𑀫">hma</button>
 
-      <button data-char="𑀍">ऌ</button>
-      <button data-char="ॡ">ॡ</button>
-      <button data-char="ऄ">ऄ</button>
-      <button data-char="ॲ">ॲ</button>
-      <button data-char="ॹ">ॹ</button>
-      <button data-char="ॺ">ॺ</button>
-      <button data-char="ॻ">ॻ</button>
-      <button data-char="ॼ">ॼ</button>
-      <button data-char="ॾ">ॾ</button>
-      <button data-char="ॿ">ॿ</button>
+    <button data-char="𑀭𑁆𑀭">rra</button>
+    <button data-char="𑀲𑁆𑀭">sra</button>
+    <button data-char="𑀳𑁆𑀭">hra</button>
+    <button data-char="𑀭𑁆𑀓">kra</button>
+    <button data-char="𑀭𑁆𑀕">rga</button>
+    <button data-char="𑀭𑁆𑀘">rcha</button>
+    <button data-char="𑀭𑁆𑀚">rja</button>
+    <button data-char="𑀭𑁆𑀢">rta</button>
+    <button data-char="𑀭𑁆𑀣">rtha</button>
+    <button data-char="𑀭𑁆𑀤">rda</button>
 
-      <button data-char="𑁀">ॢ</button>
-      <button data-char="𑁁">ॣ</button>
-      <button data-char="ऀ">ऀ</button>
-      <button data-char="॒">॒</button>
-      <button data-char=" ऺ ">॑</button>
-      <button data-char="ॽ">ॽ</button>
-      <button data-char="ऩ">ऩ</button>
-      <button data-char="ऱ">ऱ</button>
-      <button data-char="ऴ">ऴ</button>
-      <button data-char="𑀴">ळ</button>
-      <!-- <button  data-char="4/4" class="symbol" onclick="toggleKeyboard('keyboard1')">4/4</button> -->
+    <button data-char="𑀭𑁆𑀦">rna</button>
+    <button data-char="𑀭𑁆𑀫">rma</button>
+    <button data-char="𑀭𑁆𑀰">rsha</button>
+    <button data-char="𑀭𑁆𑀱">rsha</button>
+    <button data-char="𑀭𑁆𑀲">rsa</button>
+    <button data-char="𑀭𑁆𑀧">rpa</button>
+    <button data-char="𑀢𑁆𑀣">ttha</button>
+    <button data-char="𑀢𑁆𑀦">tna</button>
+    <button data-char="𑀢𑁆𑀫">tma</button>
+    <button data-char="𑀢𑁆𑀬">tya</button>
 
-      <button data-char="॰">॰</button>
-      <button data-char="  ॓ ">॓</button>
-      <button data-char="  ॔ ">॔</button>
-      <button data-char="ॎ">ॎ</button>
-      <button data-char="ः">ः</button>
-      <button data-char="ऽ">ऽ</button>
-      <button data-char="॥">॥</button>
-      <button data-char="ॐ">ॐ</button>
+    <button data-char="">1/2</button>
+    <button data-char="𑀢𑁆𑀯">tva</button>
+    <button data-char="𑀤𑁆𑀤">dda</button>
+    <button data-char="𑀤𑁆𑀥">ddha</button>
+    <button data-char="𑀤𑁆𑀩">dba</button>
+    <button data-char="𑀤𑁆𑀪">dbha</button>
+    <button data-char="𑀤𑁆𑀫">dma</button>
+    <button data-char="𑀤𑁆𑀯">dva</button>
+    <button data-char="𑀤𑀾">dri</button>
+    <button data-char="⌫">⌫</button>
+    <button data-char="" onclick="toggleKeyboard ('keyboard8')">3/4</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char=",">,</button>
+    <button data-char="" onclick="toggleKeyboard('keyboard9')">🌐</button>
+    <button data-char="हिन्दी">हिन्दी</button>
+    <button data-char="्">्</button>
+    <button data-char="।">।</button>
+    <button data-char="↩">↩</button>
+  </div>
+
+  <div class="keyboard" id="keyboard8" style="display: none;">
+
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
+
+    <button data-char="𑀭𑁆𑀝">rta</button>
+    <button data-char="𑀭𑁆𑀔">raha</button>
+    <button data-char="𑀭𑁆𑀬">rya</button>
+    <button data-char="𑀔𑁆𑀬">khya</button>
+    <button data-char="𑀚𑁆𑀬">jya</button>
+    <button data-char="𑀢𑁆𑀬">tya</button>
+    <button data-char="𑀥𑁆𑀬">dhya</button>
+    <button data-char="𑀧𑁆𑀬">pya</button>
+    <button data-char="𑀪𑁆𑀬">vhya</button>
+    <button data-char="𑀮𑁆𑀬">lya</button>
+
+    <button data-char="𑀯𑁆𑀬">vya</button>
+    <button data-char="𑀱𑁆𑀬">shya</button>
+    <button data-char="𑀲𑁆𑀬">sya</button>
+    <button data-char="𑀦𑁆𑀝">nta</button>
+    <button data-char="𑀦𑁆𑀢">nta</button>
+    <button data-char="𑀦𑁆𑀣">ntha</button>
+    <button data-char="𑀦𑁆𑀤">nda</button>
+    <button data-char="𑀦𑁆𑀦">nna</button>
+    <button data-char="𑀦𑁆𑀬">nya</र्नbutton>
+      <button data-char="𑀦𑁆𑀳">nha</button>
+
+      <button data-char="𑀫𑁆𑀘">mcha</button>
+      <button data-char="𑀫𑁆𑀝">mta</button>
+      <button data-char="𑀫𑁆𑀢">mta</button>
+      <button data-char="𑀫𑁆𑀧">mpa</button>
+      <button data-char="𑀫𑁆𑀩">mba</button>
+      <button data-char="𑀫𑁆𑀫">mma</button>
+      <button data-char="𑀫𑁆𑀬">mya</button>
+      <button data-char="𑀫𑁆𑀳">mha</button>
+      <button data-char="𑀡𑁆𑀟">nda</button>
+      <button data-char="𑀧𑁆𑀢">pta</button>
+
+      <button data-char="𑀧𑁆𑀧">ppa</button>
+      <button data-char="𑀧𑁆𑀮">pla</button>
+      <button data-char="𑀩𑁆𑀚">bja</button>
+      <button data-char="𑀩𑁆𑀤">bda</button>
+      <button data-char="𑀩𑁆𑀩">bba</button>
+      <button data-char="𑀩𑁆𑀮">bla</button>
+      <button data-char="𑀖𑁆𑀦">ghna</button>
+      <button data-char="𑀨𑁆𑀢">phta</button>
+      <button data-char="𑀰𑁆𑀘">shcha</button>
+      <button data-char="𑀰𑁆𑀯">shva</button>
+
+      <button data-char="">3/4</button>
+      <button data-char="𑀮𑁆𑀝">lta</button>
+      <button data-char="𑀮𑁆𑀧">lpa</button>
+      <button data-char="𑀮𑁆𑀩">lba</button>
+      <button data-char="𑀮𑁆𑀳">lha</button>
+      <button data-char="𑀱𑁆𑀝">shta</button>
+      <button data-char="𑀱𑁆𑀡">shna</button>
+      <button data-char="𑀱𑁆𑀧">shpa</button>
+      <button data-char="𑀱𑁆𑀓">shka</button>
       <button data-char="⌫">⌫</button>
-      <button data-char="⌫"></button>
-      
-      <button data-char="1/4"  onclick=" toggleKeyboard('keyboard6')">1/4</button>
-      <button data-char="?123">?123</button>
-      <button data-char=",">,</button>
-      <button data-char="🌐" onclick="toggleKeyboard('keyboard9')">🌐</button>
+      <button data-char="" onclick="toggleKeyboard ('keyboard5')">4/4</button>
 
+      <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+      <button data-char=",">,</button>
+      <button data-char="" onclick="toggleKeyboard('keyboard9')">🌐</button>
       <button data-char="हिन्दी">हिन्दी</button>
       <button data-char="्">्</button>
       <button data-char="।">।</button>
       <button data-char="↩">↩</button>
 
-    </div>
+  </div>
 
+  <div class="keyboard" id="keyboard9" style="display: none;">
 
+    <button data-char="𑁒">𑁒</button>
+    <button data-char="𑁓">𑁓</button>
+    <button data-char="𑁔">𑁔</button>
+    <button data-char="𑁕">𑁕</button>
+    <button data-char="𑁖">𑁖</button>
+    <button data-char="𑁗">𑁗</button>
+    <button data-char="𑁘">𑁘</button>
+    <button data-char="𑁙">𑁙</button>
+    <button data-char="𑁚">𑁚</button>
+    <button data-char="०">०</button>
 
-    <div class="keyboard" id="keyboard6" style="display: none;">
-      <!-- Row 1 -->
-      <button data-char="𑁒">1</button>
-      <button data-char="𑁓">2</button>
-      <button data-char="𑁔">3</button>
-      <button data-char="𑁕">4</button>
-      <button data-char="𑁖">5</button>
-      <button data-char="𑁗">6</button>
-      <button data-char="𑁘">7</button>
-      <button data-char="𑁙">8</button>
-      <button data-char="𑁚">9</button>
-      <button data-char="०">0</button>
+    <button data-char="ऍ">ऍ</button>
+    <button data-char="ऑ">ऑ</button>
+    <button data-char="ऎ">ऎ</button>
+    <button data-char="ऒ">ऒ</button>
+    <button data-char="ॵ">ॵ</button>
+    <button data-char="ॳ">ॳ</button>
+    <button data-char="ॴ">ॴ</button>
+    <button data-char="ॶ">ॶ</button>
+    <button data-char="ॷ">ॷ</button>
+    <button data-char="ॠ">ॠ</button>
 
-      <button data-char="𑀅">a</button>
-      <button data-char="𑀆">aa</button>
-      <button data-char="𑀇">i</button>
-      <button data-char="𑀈">ee</button>
-      <button data-char="𑀉">u</button>
-      <button data-char="𑀊">oo</button>
-      <button data-char="𑀏">e</button>
-      <button data-char="𑀐">ai</button>
-      <button data-char="𑀑">o</button>
-      <button data-char="𑀒">au</button>
+    <button data-char="ॅ">ॅ</button>
+    <button data-char="ॉ">ॉ</button>
+    <button data-char="ॆ">ॆ</button>
+    <button data-char="ॊ">ॊ</button>
+    <button data-char="ॏ">ॏ</button>
+    <button data-char="ऺ">ऺ</button>
+    <button data-char="ऻ">ऻ</button>
+    <button data-char="ॖ">ॖ</button>
+    <button data-char="ॗ">ॗ</button>
+    <button data-char="𑀿">ॄ</button>
 
-      <button data-char="ः">ah</button>
-      <button data-char="𑀸">a</button>
-      <button data-char="𑀺">i</button>
-      <button data-char="𑀻">ee</button>
-      <button data-char="𑀼">u</button>
-      <button data-char="𑀽">oo</button>
-      <button data-char="𑁂">e</button>
-      <button data-char="𑁃">ai</button>
-      <button data-char="𑁄">o</button>
-      <button data-char="𑁅">au</button>
+    <button data-char="𑀍">ऌ</button>
+    <button data-char="ॡ">ॡ</button>
+    <button data-char="ऄ">ऄ</button>
+    <button data-char="ॲ">ॲ</button>
+    <button data-char="ॹ">ॹ</button>
+    <button data-char="ॺ">ॺ</button>
+    <button data-char="ॻ">ॻ</button>
+    <button data-char="ॼ">ॼ</button>
+    <button data-char="ॾ">ॾ</button>
+    <button data-char="ॿ">ॿ</button>
 
-      <button data-char="𑀓">ka</button>
-      <button data-char="𑀔">kha</button>
-      <button data-char="𑀕">ga</button>
-      <button data-char="𑀖">gha</button>
-      <button data-char="𑀗">na</button>
-      <button data-char="𑀘">cha</button>
-      <button data-char="𑀙">chha</button>
-      <button data-char="𑀚">ja</button>
-      <button data-char="𑀛">jha</button>
-      <button data-char="𑀜">na</button>
-      <!-- Row 3 -->
-      <button data-char="𑀝">ta</button>
-      <button data-char="𑀞">tha</button>
-      <button data-char="𑀟">da</button>
-      <button data-char="𑀠">dha</button>
-      <button data-char="𑀡">na</button>
-      <button data-char="𑀢">ta</button>
-      <button data-char="𑀣">tha</button>
-      <button data-char="𑀤">da</button>
-      <button data-char="𑀥">dha</button>
-      <button data-char="𑀦">na</button>
-      <!-- Row 4 -->
-      <button data-char="𑀧">pa</button>
-      <button data-char="𑀨">pha/fa</button>
-      <button data-char="𑀩">ba</button>
-      <button data-char="𑀪">bha</button>
-      <button data-char="𑀫">ma</button>
-      <button data-char="𑀬">ya</button>
-      <button data-char="𑀭">ra</button>
-      <button data-char="𑀮">la</button>
-      <button data-char="𑀯">va</button>
-      <button data-char="𑀰">sha</button>
-      <!-- Row 5 -->
-      <button data-char="𑀱">sha</button>
-      <button data-char="𑀲">sa</button>
-      <button data-char="𑀳">ha</button>
-      <button data-char="𑀓𑁆𑀱">ksha</button>
-      <button data-char="𑀢𑁆𑀭">tra</button>
-      <button data-char="𑀚𑁆𑀜">gya</button>
-      <button data-char="𑀰𑁆𑀭">shra</button>
-      <button data-char="𑀁">n</button>
-      <button data-char="़">़</button>
-      <button data-char="←" class="⌫">⌫</button>
+    <button data-char="𑁀">ॢ</button>
+    <button data-char="𑁁">ॣ</button>
+    <button data-char="ऀ">ऀ</button>
+    <button data-char="॒">॒</button>
+    <button data-char=" ऺ ">॑</button>
+    <button data-char="ॽ">ॽ</button>
+    <button data-char="ऩ">ऩ</button>
+    <button data-char="ऱ">ऱ</button>
+    <button data-char="ऴ">ऴ</button>
+    <button data-char="𑀴">ळ</button>
 
-      <!-- Row 6 -->
-      <!-- <button data-char="4/4" onclick=" toggleKeyboard('keyboard6')">1/4</button> -->
+  
+    <button data-char="॰">॰</button>
+    <button data-char="  ॓ ">॓</button>
+    <button data-char="  ॔ ">॔</button>
+    <button data-char="ॎ">ॎ</button>
+    <button data-char="ः">ः</button>
+    <button data-char="ऽ">ऽ</button>
+    <button data-char="॥">॥</button>
+    <button data-char="ॐ">ॐ</button>
+    <button data-char="⌫">⌫</button>
+    <button data-char=""></button>
+    <button data-char="" onclick="toggleKeyboard ('keyboard10')">1/3</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char=",">,</button>
+    <button data-char="" onclick="toggleKeyboard('keyboard1')">🌐</button>
+    <button data-char="हिन्दी">हिन्दी</button>
+    <button data-char="्">्</button>
+    <button data-char="।">।</button>
+    <button data-char="↩">↩</button>
 
-      <button data-char="2/4" class="symbol" onclick="toggleKeyboard('keyboard7')">2/4</button>
+  </div>
 
-      <button data-char="?123" class="symbol">?123</button>
-      <button data-char="," class="symbol">,</button>
-      <button style="color: black;" data-char="🌐" class="symbol">🌐</button>
-      <button data-char="space" class="" style="width: 200px;">ब्राह्मी लिपि</button>
-      <button data-char="्" class="">्</button>
-      <button data-char="|">।</button>
-      <button data-char="↩">↩</button>
-    </div>
+  <div class="keyboard" id="keyboard10" style="display: none;">
 
 
 
 
+    <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
+    <button data-char="𑀢𑁆𑀭">𑀢𑁆𑀭</button>
+    <button data-char="𑀲𑁆𑀝">𑀲𑁆𑀝</button>
+    <button data-char="𑀲𑁆𑀢">𑀲𑁆𑀢</button>
+    <button data-char="𑀗">𑀗</button>
+    <button data-char="𑀜">𑀜</button>
+    <button data-char="𑀰𑁆𑀭">𑀰𑁆𑀭</button>
+    <button data-char="𑀓𑁆𑀭">𑀓𑁆𑀭</button>
+    <button data-char="𑀕𑁆𑀭">𑀕𑁆𑀭</button>
+    <button data-char="𑀤𑁆𑀭">𑀤𑁆𑀭</button>
 
-    <div class="keyboard" id="keyboard7" style="display: none;">
+    <button data-char="𑀥𑁆𑀭">𑀥𑁆𑀭</button>
+    <button data-char="𑀧𑁆𑀭">𑀧𑁆𑀭</button>
+    <button data-char="𑀩𑁆𑀭">𑀩𑁆𑀭</button>
+    <button data-char="𑀪𑁆𑀭">𑀪𑁆𑀭</button>
+    <button data-char="𑀫𑁆𑀭">𑀫𑁆𑀭</button>
+    <button data-char="𑀨𑁆𑀭">𑀨𑁆𑀭</button>
+    <button data-char="𑀯𑁆𑀭">𑀯𑁆𑀭</button>
+    <button data-char="𑀓𑁆𑀢">𑀓𑁆𑀢</button>
+    <button data-char="𑀢𑁆𑀢">𑀢𑁆𑀢</button>
+    <button data-char="𑀳𑁆𑀫">𑀳𑁆𑀫</button>
 
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
+    <button data-char="𑀭𑁆𑀭">𑀭𑁆𑀭</button>
+    <button data-char="𑀲𑁆𑀭">𑀲𑁆𑀭</button>
+    <button data-char="𑀳𑁆𑀭">𑀳𑁆𑀭</button>
+    <button data-char="𑀭𑁆𑀓">𑀭𑁆𑀓</button>
+    <button data-char="𑀭𑁆𑀕">𑀭𑁆𑀕</button>
+    <button data-char="𑀭𑁆𑀘">𑀭𑁆𑀘</button>
+    <button data-char="𑀭𑁆𑀚">𑀭𑁆𑀚</button>
+    <button data-char="𑀭𑁆𑀢">𑀭𑁆𑀢</button>
+    <button data-char="𑀭𑁆𑀣">𑀭𑁆𑀣</button>
+    <button data-char="𑀭𑁆𑀤">𑀭𑁆𑀤</button>
 
-      <button data-char="𑀚𑁆𑀜">gya</button>
-      <button data-char="𑀢𑁆𑀭">tra</button>
-      <button data-char="𑀲𑁆𑀝">sta</button>
-      <button data-char="𑀲𑁆𑀢">sta</button>
-      <button data-char="𑀗">na</button>
-      <button data-char="𑀜">na</button>
-      <button data-char="𑀰𑁆𑀭">shra</button>
-      <button data-char="𑀓𑁆𑀭">kra</button>
-      <button data-char="𑀕𑁆𑀭">gra</button>
-      <button data-char="𑀤𑁆𑀭">dra</button>
-
-      <button data-char="𑀥𑁆𑀭">dhra</button>
-      <button data-char="𑀧𑁆𑀭">pra</button>
-      <button data-char="𑀩𑁆𑀭">bra</button>
-      <button data-char="𑀪𑁆𑀭">bhra</button>
-      <button data-char="𑀫𑁆𑀭">mra</button>
-      <button data-char="𑀨𑁆𑀭">fra</button>
-      <button data-char="𑀯𑁆𑀭">vra</button>
-      <button data-char="𑀓𑁆𑀢">kta</button>
-      <button data-char="𑀢𑁆𑀢">tta</button>
-      <button data-char="𑀳𑁆𑀫">hma</button>
-
-      <button data-char="𑀭𑁆𑀭">rra</button>
-      <button data-char="𑀲𑁆𑀭">sra</button>
-      <button data-char="𑀳𑁆𑀭">hra</button>
-      <button data-char="𑀭𑁆𑀓">kra</button>
-      <button data-char="𑀭𑁆𑀕">rga</button>
-      <button data-char="𑀭𑁆𑀘">rcha</button>
-      <button data-char="𑀭𑁆𑀚">rja</button>
-      <button data-char="𑀭𑁆𑀢">rta</button>
-      <button data-char="𑀭𑁆𑀣">rtha</button>
-      <button data-char="𑀭𑁆𑀤">rda</button>
-
-      <button data-char="𑀭𑁆𑀦">rna</button>
-      <button data-char="𑀭𑁆𑀫">rma</button>
-      <button data-char="𑀭𑁆𑀰">rsha</button>
-      <button data-char="𑀭𑁆𑀱">rsha</button>
-      <button data-char="𑀭𑁆𑀲">rsa</button>
-      <button data-char="𑀭𑁆𑀧">rpa</button>
-      <button data-char="𑀢𑁆𑀣">ttha</button>
-      <button data-char="𑀢𑁆𑀦">tna</button>
-      <button data-char="𑀢𑁆𑀫">tma</button>
-      <button data-char="𑀢𑁆𑀬">tya</button>
-
-      <button data-char="1/2">1/2</button>
-      <button data-char="𑀢𑁆𑀯">tva</button>
-      <button data-char="𑀤𑁆𑀤">dda</button>
-      <button data-char="𑀤𑁆𑀥">ddha</button>
-      <button data-char="𑀤𑁆𑀩">dba</button>
-      <button data-char="𑀤𑁆𑀪">dbha</button>
-      <button data-char="𑀤𑁆𑀫">dma</button>
-      <button data-char="𑀤𑁆𑀯">dva</button>
-      <button data-char="𑀤𑀾">dri</button>
-      <button data-char="⌫">⌫</button>
-      <button data-char="3/4" onclick="toggleKeyboard ('keyboard8')">3/4</button>
-      <button data-char="?123">?123</button>
-      <button data-char=",">,</button>
-      <button data-char="🌐">🌐</button>
-      <button data-char="हिन्दी">हिन्दी</button>
-      <button data-char="्">्</button>
-      <button data-char="।">।</button>
-      <button data-char="↩">↩</button>
-    </div>
-
-
-
-
-    <div class="keyboard" id="keyboard8" style="display: none;">
-
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
-
-      <button data-char="𑀭𑁆𑀝">rta</button>
-      <button data-char="𑀭𑁆𑀔">raha</button>
-      <button data-char="𑀭𑁆𑀬">rya</button>
-      <button data-char="𑀔𑁆𑀬">khya</button>
-      <button data-char="𑀚𑁆𑀬">jya</button>
-      <button data-char="𑀢𑁆𑀬">tya</button>
-      <button data-char="𑀥𑁆𑀬">dhya</button>
-      <button data-char="𑀧𑁆𑀬">pya</button>
-      <button data-char="𑀪𑁆𑀬">vhya</button>
-      <button data-char="𑀮𑁆𑀬">lya</button>
-
-      <button data-char="𑀯𑁆𑀬">vya</button>
-      <button data-char="𑀱𑁆𑀬">shya</button>
-      <button data-char="𑀲𑁆𑀬">sya</button>
-      <button data-char="𑀦𑁆𑀝">nta</button>
-      <button data-char="𑀦𑁆𑀢">nta</button>
-      <button data-char="𑀦𑁆𑀣">ntha</button>
-      <button data-char="𑀦𑁆𑀤">nda</button>
-      <button data-char="𑀦𑁆𑀦">nna</button>
-      <button data-char="𑀦𑁆𑀬">nya</र्नbutton>
-        <button data-char="𑀦𑁆𑀳">nha</button>
-
-        <button data-char="𑀫𑁆𑀘">mcha</button>
-        <button data-char="𑀫𑁆𑀝">mta</button>
-        <button data-char="𑀫𑁆𑀢">mta</button>
-        <button data-char="𑀫𑁆𑀧">mpa</button>
-        <button data-char="𑀫𑁆𑀩">mba</button>
-        <button data-char="𑀫𑁆𑀫">mma</button>
-        <button data-char="𑀫𑁆𑀬">mya</button>
-        <button data-char="𑀫𑁆𑀳">mha</button>
-        <button data-char="𑀡𑁆𑀟">nda</button>
-        <button data-char="𑀧𑁆𑀢">pta</button>
-
-        <button data-char="𑀧𑁆𑀧">ppa</button>
-        <button data-char="𑀧𑁆𑀮">pla</button>
-        <button data-char="𑀩𑁆𑀚">bja</button>
-        <button data-char="𑀩𑁆𑀤">bda</button>
-        <button data-char="𑀩𑁆𑀩">bba</button>
-        <button data-char="𑀩𑁆𑀮">bla</button>
-        <button data-char="𑀖𑁆𑀦">ghna</button>
-        <button data-char="𑀨𑁆𑀢">phta</button>
-        <button data-char="𑀰𑁆𑀘">shcha</button>
-        <button data-char="𑀰𑁆𑀯">shva</button>
-
-        <button data-char="3/4">3/4</button>
-        <button data-char="𑀮𑁆𑀝">lta</button>
-        <button data-char="𑀮𑁆𑀧">lpa</button>
-        <button data-char="𑀮𑁆𑀩">lba</button>
-        <button data-char="𑀮𑁆𑀳">lha</button>
-        <button data-char="𑀱𑁆𑀝">shta</button>
-        <button data-char="𑀱𑁆𑀡">shna</button>
-        <button data-char="𑀱𑁆𑀧">shpa</button>
-        <button data-char="𑀱𑁆𑀓">shka</button>
-        <button data-char="⌫">⌫</button>
-        <button data-char="4/4" onclick="toggleKeyboard ('keyboard5')">4/4</button>
-
-        <button data-char="?123">?123</button>
-        <button data-char=",">,</button>
-        <button data-char="🌐">🌐</button>
-        <button data-char="हिन्दी">हिन्दी</button>
-        <button data-char="्">्</button>
-        <button data-char="।">।</button>
-        <button data-char="↩">↩</button>
-
-    </div>
-    <div class="keyboard" id="keyboard9" style="display: none;">
-
-      <button data-char="𑁒">𑁒</button>
-      <button data-char="𑁓">𑁓</button>
-      <button data-char="𑁔">𑁔</button>
-      <button data-char="𑁕">𑁕</button>
-      <button data-char="𑁖">𑁖</button>
-      <button data-char="𑁗">𑁗</button>
-      <button data-char="𑁘">𑁘</button>
-      <button data-char="𑁙">𑁙</button>
-      <button data-char="𑁚">𑁚</button>
-      <button data-char="०">०</button>
-
-      <button data-char="ऍ">ऍ</button>
-      <button data-char="ऑ">ऑ</button>
-      <button data-char="ऎ">ऎ</button>
-      <button data-char="ऒ">ऒ</button>
-      <button data-char="ॵ">ॵ</button>
-      <button data-char="ॳ">ॳ</button>
-      <button data-char="ॴ">ॴ</button>
-      <button data-char="ॶ">ॶ</button>
-      <button data-char="ॷ">ॷ</button>
-      <button data-char="ॠ">ॠ</button>
-
-      <button data-char="ॅ">ॅ</button>
-      <button data-char="ॉ">ॉ</button>
-      <button data-char="ॆ">ॆ</button>
-      <button data-char="ॊ">ॊ</button>
-      <button data-char="ॏ">ॏ</button>
-      <button data-char="ऺ">ऺ</button>
-      <button data-char="ऻ">ऻ</button>
-      <button data-char="ॖ">ॖ</button>
-      <button data-char="ॗ">ॗ</button>
-      <button data-char="𑀿">ॄ</button>
-
-      <button data-char="𑀍">ऌ</button>
-      <button data-char="ॡ">ॡ</button>
-      <button data-char="ऄ">ऄ</button>
-      <button data-char="ॲ">ॲ</button>
-      <button data-char="ॹ">ॹ</button>
-      <button data-char="ॺ">ॺ</button>
-      <button data-char="ॻ">ॻ</button>
-      <button data-char="ॼ">ॼ</button>
-      <button data-char="ॾ">ॾ</button>
-      <button data-char="ॿ">ॿ</button>
-
-      <button data-char="𑁀">ॢ</button>
-      <button data-char="𑁁">ॣ</button>
-      <button data-char="ऀ">ऀ</button>
-      <button data-char="॒">॒</button>
-      <button data-char=" ऺ ">॑</button>
-      <button data-char="ॽ">ॽ</button>
-      <button data-char="ऩ">ऩ</button>
-      <button data-char="ऱ">ऱ</button>
-      <button data-char="ऴ">ऴ</button>
-      <button data-char="𑀴">ळ</button>
-
-      <button data-char="1/3" onclick="toggleKeyboard ('keyboard10')">1/3</button>
-      <button data-char="॰">॰</button>
-      <button data-char="  ॓ ">॓</button>
-      <button data-char="  ॔ ">॔</button>
-      <button data-char="ॎ">ॎ</button>
-      <button data-char="ः">ः</button>
-      <button data-char="ऽ">ऽ</button>
-      <button data-char="॥">॥</button>
-      <button data-char="ॐ">ॐ</button>
-      <button data-char="⌫">⌫</button>
-
-      <button data-char="?123">?123</button>
-      <button data-char=",">,</button>
-      <button data-char="🌐">🌐</button>
-      <button data-char="हिन्दी">हिन्दी</button>
-      <button data-char="्">्</button>
-      <button data-char="।">।</button>
-      <button data-char="↩">↩</button>
-
-    </div>
-    <div class="keyboard" id="keyboard10" style="display: none;">
-
-      
+    <button data-char="𑀭𑁆𑀦">𑀭𑁆𑀦</button>
+    <button data-char="𑀭𑁆𑀫">𑀭𑁆𑀫</button>
+    <button data-char="𑀭𑁆𑀰">𑀭𑁆𑀰</button>
+    <button data-char="𑀭𑁆𑀱">𑀭𑁆𑀱</button>
+    <button data-char="𑀭𑁆𑀲">𑀭𑁆𑀲</button>
+    <button data-char="𑀭𑁆𑀧">𑀭𑁆𑀧</button>
+    <button data-char="𑀢𑁆𑀣">𑀢𑁆𑀣</button>
+    <button data-char="𑀢𑁆𑀦">𑀢𑁆𑀦</button>
+    <button data-char="𑀢𑁆𑀫">𑀢𑁆𑀫</button>
+    <button data-char="𑀢𑁆𑀬">𑀢𑁆𑀬</button>
 
     
-      <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
-      <button data-char="𑀢𑁆𑀭">𑀢𑁆𑀭</button>
-      <button data-char="𑀲𑁆𑀝">𑀲𑁆𑀝</button>
-      <button data-char="𑀲𑁆𑀢">𑀲𑁆𑀢</button>
-      <button data-char="𑀗">𑀗</button>
-      <button data-char="𑀜">𑀜</button>
-      <button data-char="𑀰𑁆𑀭">𑀰𑁆𑀭</button>
-      <button data-char="𑀓𑁆𑀭">𑀓𑁆𑀭</button>
-      <button data-char="𑀕𑁆𑀭">𑀕𑁆𑀭</button>
-      <button data-char="𑀤𑁆𑀭">𑀤𑁆𑀭</button>
-      
-      <button data-char="𑀥𑁆𑀭">𑀥𑁆𑀭</button>
-      <button data-char="𑀧𑁆𑀭">𑀧𑁆𑀭</button>
-      <button data-char="𑀩𑁆𑀭">𑀩𑁆𑀭</button>
-      <button data-char="𑀪𑁆𑀭">𑀪𑁆𑀭</button>
-      <button data-char="𑀫𑁆𑀭">𑀫𑁆𑀭</button>
-      <button data-char="𑀨𑁆𑀭">𑀨𑁆𑀭</button>
-      <button data-char="𑀯𑁆𑀭">𑀯𑁆𑀭</button>
-      <button data-char="𑀓𑁆𑀢">𑀓𑁆𑀢</button>
-      <button data-char="𑀢𑁆𑀢">𑀢𑁆𑀢</button>
-      <button data-char="𑀳𑁆𑀫">𑀳𑁆𑀫</button>
-      
-      <button data-char="𑀭𑁆𑀭">𑀭𑁆𑀭</button>
-      <button data-char="𑀲𑁆𑀭">𑀲𑁆𑀭</button>
-      <button data-char="𑀳𑁆𑀭">𑀳𑁆𑀭</button>
-      <button data-char="𑀭𑁆𑀓">𑀭𑁆𑀓</button>
-      <button data-char="𑀭𑁆𑀕">𑀭𑁆𑀕</button>
-      <button data-char="𑀭𑁆𑀘">𑀭𑁆𑀘</button>
-      <button data-char="𑀭𑁆𑀚">𑀭𑁆𑀚</button>
-      <button data-char="𑀭𑁆𑀢">𑀭𑁆𑀢</button>
-      <button data-char="𑀭𑁆𑀣">𑀭𑁆𑀣</button>
-      <button data-char="𑀭𑁆𑀤">𑀭𑁆𑀤</button>
-      
-      <button data-char="𑀭𑁆𑀦">𑀭𑁆𑀦</button>
-      <button data-char="𑀭𑁆𑀫">𑀭𑁆𑀫</button>
-      <button data-char="𑀭𑁆𑀰">𑀭𑁆𑀰</button>
-      <button data-char="𑀭𑁆𑀱">𑀭𑁆𑀱</button>
-      <button data-char="𑀭𑁆𑀲">𑀭𑁆𑀲</button>
-      <button data-char="𑀭𑁆𑀧">𑀭𑁆𑀧</button>
-      <button data-char="𑀢𑁆𑀣">𑀢𑁆𑀣</button>
-      <button data-char="𑀢𑁆𑀦">𑀢𑁆𑀦</button>
-      <button data-char="𑀢𑁆𑀫">𑀢𑁆𑀫</button>
-      <button data-char="𑀢𑁆𑀬">𑀢𑁆𑀬</button>
-      
-      <button data-char="2/3" onclick="toggleKeyboard ('keyboard11')">2/3</button>
-      <button data-char="𑀢𑁆𑀯">𑀢𑁆𑀯</button>
-      <button data-char="𑀤𑁆𑀤">𑀤𑁆𑀤</button>
-      <button data-char="𑀤𑁆𑀥">𑀤𑁆𑀥</button>
-      <button data-char="𑀤𑁆𑀩">𑀤𑁆𑀩</button>
-      <button data-char="𑀤𑁆𑀪">𑀤𑁆𑀪</button>
-      <button data-char="𑀤𑁆𑀫">𑀤𑁆𑀫</button>
-      <button data-char="𑀤𑁆𑀯">𑀤𑁆𑀯</button>
-      <button data-char="𑀤𑀾">𑀤𑀾</button>
-      <button data-char="←">←</button>
-      
-      <button data-char="?123">?123</button>
-      <button data-char=",">,</button>
-      <button data-char="🌐">🌐</button>
-      <button data-char="हिन्दी">हिन्दी</button>
-      <button data-char="्">्</button>
-      <button data-char="।">।</button>
-      <button data-char="↩">↩</button>
+    <button data-char="𑀢𑁆𑀯">𑀢𑁆𑀯</button>
+    <button data-char="𑀤𑁆𑀤">𑀤𑁆𑀤</button>
+    <button data-char="𑀤𑁆𑀥">𑀤𑁆𑀥</button>
+    <button data-char="𑀤𑁆𑀩">𑀤𑁆𑀩</button>
+    <button data-char="𑀤𑁆𑀪">𑀤𑁆𑀪</button>
+    <button data-char="𑀤𑁆𑀫">𑀤𑁆𑀫</button>
+    <button data-char="𑀤𑁆𑀯">𑀤𑁆𑀯</button>
+    <button data-char="𑀤𑀾">𑀤𑀾</button>
+    <button data-char="←">←</button>
+    <button data-char=""></button>
+    <button data-char="" onclick="toggleKeyboard ('keyboard11')">2/3</button>
+    <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
+    <button data-char=",">,</button>
+    <button data-char="" onclick="toggleKeyboard('keyboard1')">🌐</button>
+    <button data-char="हिन्दी">हिन्दी</button>
+    <button data-char="्">्</button>
+    <button data-char="।">।</button>
+    <button data-char="↩">↩</button>
 
-    </div>
-    <div class="keyboard" id="keyboard11" style="display: none;">
+  </div>
 
-      
+  <div class="keyboard" id="keyboard11" style="display: none;">
 
-      <button data-char="𑀭𑁆𑀝">𑀭𑁆𑀝</button>
-      <button data-char="𑀭𑁆𑀔">𑀭𑁆𑀔</button>
-      <button data-char="𑀭𑁆𑀬">𑀭𑁆𑀬</button>
-      <button data-char="𑀔𑁆𑀬">𑀔𑁆𑀬</button>
-      <button data-char="𑀚𑁆𑀬">𑀚𑁆𑀬</button>
-      <button data-char="𑀢𑁆𑀬">𑀢𑁆𑀬</button>
-      <button data-char="𑀥𑁆𑀬">𑀥𑁆𑀬</button>
-      <button data-char="𑀧𑁆𑀬">𑀧𑁆𑀬</button>
-      <button data-char="𑀪𑁆𑀬">𑀪𑁆𑀬</button>
-      <button data-char="𑀮𑁆𑀬">𑀮𑁆𑀬</button>
-      
-      <button data-char="𑀯𑁆𑀬">𑀯𑁆𑀬</button>
-      <button data-char="𑀱𑁆𑀬">𑀱𑁆𑀬</button>
-      <button data-char="𑀲𑁆𑀬">𑀲𑁆𑀬</button>
-      <button data-char="𑀦𑁆𑀝">𑀦𑁆𑀝</button>
-      <button data-char="𑀦𑁆𑀢">𑀦𑁆𑀢</button>
-      <button data-char="𑀦𑁆𑀣">𑀦𑁆𑀣</button>
-      <button data-char="𑀦𑁆𑀤">𑀦𑁆𑀤</button>
-      <button data-char="𑀦𑁆𑀦">𑀦𑁆𑀦</button>
-      <button data-char="𑀦𑁆𑀬">𑀦𑁆𑀬</र्नbutton>
+
+
+    <button data-char="𑀭𑁆𑀝">𑀭𑁆𑀝</button>
+    <button data-char="𑀭𑁆𑀔">𑀭𑁆𑀔</button>
+    <button data-char="𑀭𑁆𑀬">𑀭𑁆𑀬</button>
+    <button data-char="𑀔𑁆𑀬">𑀔𑁆𑀬</button>
+    <button data-char="𑀚𑁆𑀬">𑀚𑁆𑀬</button>
+    <button data-char="𑀢𑁆𑀬">𑀢𑁆𑀬</button>
+    <button data-char="𑀥𑁆𑀬">𑀥𑁆𑀬</button>
+    <button data-char="𑀧𑁆𑀬">𑀧𑁆𑀬</button>
+    <button data-char="𑀪𑁆𑀬">𑀪𑁆𑀬</button>
+    <button data-char="𑀮𑁆𑀬">𑀮𑁆𑀬</button>
+
+    <button data-char="𑀯𑁆𑀬">𑀯𑁆𑀬</button>
+    <button data-char="𑀱𑁆𑀬">𑀱𑁆𑀬</button>
+    <button data-char="𑀲𑁆𑀬">𑀲𑁆𑀬</button>
+    <button data-char="𑀦𑁆𑀝">𑀦𑁆𑀝</button>
+    <button data-char="𑀦𑁆𑀢">𑀦𑁆𑀢</button>
+    <button data-char="𑀦𑁆𑀣">𑀦𑁆𑀣</button>
+    <button data-char="𑀦𑁆𑀤">𑀦𑁆𑀤</button>
+    <button data-char="𑀦𑁆𑀦">𑀦𑁆𑀦</button>
+    <button data-char="𑀦𑁆𑀬">𑀦𑁆𑀬</र्नbutton>
       <button data-char="𑀦𑁆𑀳">𑀦𑁆𑀳</button>
-      
+
       <button data-char="𑀫𑁆𑀘">𑀫𑁆𑀘</button>
       <button data-char="𑀫𑁆𑀝">𑀫𑁆𑀝</button>
       <button data-char="𑀫𑁆𑀢">𑀫𑁆𑀢</button>
@@ -911,7 +972,7 @@
       <button data-char="𑀫𑁆𑀳">𑀫𑁆𑀳</button>
       <button data-char="𑀡𑁆𑀟">𑀡𑁆𑀟</button>
       <button data-char="𑀧𑁆𑀢">𑀧𑁆𑀢</button>
-      
+
       <button data-char="𑀧𑁆𑀧">𑀧𑁆𑀧</button>
       <button data-char="𑀧𑁆𑀮">𑀧𑁆𑀮</button>
       <button data-char="𑀩𑁆𑀚">𑀩𑁆𑀚</button>
@@ -922,7 +983,7 @@
       <button data-char="𑀨𑁆𑀢">𑀨𑁆𑀢</button>
       <button data-char="𑀰𑁆𑀘">𑀰𑁆𑀘</button>
       <button data-char="𑀰𑁆𑀯">𑀰𑁆𑀯</button>
-      
+
       <!-- <button data-char="3/4">3/4</button> -->
       <button data-char="𑀮𑁆𑀝">𑀮𑁆𑀝</button>
       <button data-char="𑀮𑁆𑀧">𑀮𑁆𑀧</button>
@@ -933,23 +994,18 @@
       <button data-char="𑀱𑁆𑀧">𑀱𑁆𑀧</button>
       <button data-char="𑀱𑁆𑀓">𑀱𑁆𑀓</button>
       <button data-char="←">←</button>
-      <button data-char="3/3" onclick="toggleKeyboard ('keyboard9')">3/3</button>
-      <button data-char="?123">?123</button>
+      <button data-char=""></button>
+      <button data-char="" onclick="toggleKeyboard ('keyboard9')">3/3</button>
+      <button data-char="" class="symbol" onclick="showOtherKeyboard()">?123</button>
       <button data-char=",">,</button>
-      <button data-char="🌐">🌐</button>
+      <button data-char="" onclick="toggleKeyboard('keyboard11')">🌐</button>
       <button data-char="हिन्दी">हिन्दी</button>
       <button data-char="्">्</button>
       <button data-char="।">।</button>
       <button data-char="↩">↩</button>
-    </div>
-    <!-- <div class="keyboard" id="keyboard12">
-
-      
-
-     
- 
-      
-      <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
+  </div>
+  <!-- <div class="keyboard" id="keyboard12">
+   <button data-char="𑀚𑁆𑀜">𑀚𑁆𑀜</button>
       <button data-char="𑀢𑁆𑀭">𑀢𑁆𑀭</button>
       <button data-char="𑀲𑁆𑀝">𑀲𑁆𑀝</button>
       <button data-char="𑀲𑁆𑀢">𑀲𑁆𑀢</button>
@@ -1014,12 +1070,8 @@
 
     </div> -->
 
+  <script src="script.js"></script>
 
-
-
-
-
-    <script src="script.js"></script>
 </body>
 
 </html>

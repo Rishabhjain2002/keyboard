@@ -10,6 +10,7 @@
     border: 2px solid black;
     border-radius: 10px;
     background-color: #99C0FB;
+    flex-direction: row; 
 } 
 
 /* Button Styling */
