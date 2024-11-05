@@ -1,0 +1,107 @@
+/* General Keyboard Layout */
+.keyboard {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+    max-width: 700px; /* Ensures 10 buttons fit perfectly across */
+    margin: 20px auto;
+    gap: 0; /* Removes gaps between buttons */
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #99C0FB;
+} 
+
+/* Button Styling */
+.keyboard button {
+    flex: 1 1 10%; /* Ensures 10 buttons per row */
+    max-width: 10%; /* Limits each button to 10% of container width */
+    height: 70px;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('/Brahmi\ lipi\ tools\ symbol_20241103_163634_0000.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: background-color 0.2s; */
+}
+
+/* Hover Effect */
+.keyboard button:hover {
+    background-color: rgba(209, 209, 209, 0.7); 
+}
+
+/* Special Button Styling */
+.keyboard button.space,
+.keyboard button.backspace {
+    flex: 1 1 20%; /* Larger buttons take two slots (20% width each) */
+    max-width: 20%;
+    border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+    .keyboard {
+        max-width: 100%;
+        padding: 6px;
+    }
+
+    .keyboard button {
+        height: 50px; /* Reduces button height for smaller screens */
+        font-size: 1.1rem;
+    }
+}
+
+  .symbol {
+    font-size: 24px;
+    padding: 10px 20px;
+    /* color: black; */
+    /* background-color: #f1f1f1; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .language-options label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  #submitButton {
+    padding: 8px 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
