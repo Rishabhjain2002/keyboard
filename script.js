@@ -103,6 +103,7 @@ function showOtherKeyboards() {
 // Function to show the main keyboard (keyboard1) only
 function showMainKeyboard() {
   hideAllKeyboards(); // Ensure all keyboards are hidden first
+  document.getElementById("otherKeyboard").style.display = "none";
   document.getElementById("otherKeyboardsigns").style.display = "none"; 
   document.getElementById("keyboard1").style.display = "flex"; // Display the main keyboard
 }
